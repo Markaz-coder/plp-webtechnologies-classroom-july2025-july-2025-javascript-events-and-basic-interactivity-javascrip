@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive JS Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🎉 JavaScript Interactivity Demo</h1>
+
+  <!-- Part 1: Event Handling Demo -->
+  <button id="messageBtn">Show Message</button>
+  <p id="message"></p>
+
+  <!-- Part 2: Interactive Elements -->
+  <h2>Light/Dark Mode Toggle</h2>
+  <button id="toggleTheme">Toggle Theme</button>
+
+  <h2>Counter Game</h2>
+  <button id="counterBtn">Click Me!</button>
+  <p>Count: <span id="count">0</span></p>
+
+  <h2>Collapsible FAQ</h2>
+  <button class="faq-toggle">What is this project about?</button>
+  <div class="faq-content">It's about learning JavaScript interactivity and form validation!</div>
+
+  <!-- Part 3: Form Validation -->
+  <h2>Contact Form</h2>
+  <form id="contactForm">
+    <input type="text" id="name" placeholder="Name">
+    <span class="error" id="nameError"></span>
+    
+    <input type="email" id="email" placeholder="Email">
+    <span class="error" id="emailError"></span>
+    
+    <input type="password" id="password" placeholder="Password">
+    <span class="error" id="passwordError"></span>
+    
+    <button type="submit">Submit</button>
+  </form>
+
+  <p id="formSuccess"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
